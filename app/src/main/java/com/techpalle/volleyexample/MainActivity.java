@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
                             String mobile = jsonObject.optString("mobile");
 
                             tv4.setText(name);tv5.setText(email);tv3.setText(home);tv2.setText(mobile);
-
+                               //Toast.makeText(MainActivity.this,"Changes in Project for test",Toast)
 
                         } catch (JSONException e) {
                             e.printStackTrace();
